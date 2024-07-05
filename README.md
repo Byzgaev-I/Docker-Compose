@@ -175,12 +175,23 @@ services:
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-4-5деплой.png)
 
 
+6) Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect".
+В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver".
 
+**Выполнения задания 5.6**
 
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-6.png)
 
+7) Удалите любой из манифестов компоуза(например compose.yaml). Выполните команду "docker compose up -d".  
+Прочитайте warning, объясните суть предупреждения и выполните предложенное действие. Погасите compose-проект ОДНОЙ(обязательно!!) командой.
 
+**Выполнения задания 5.7**
 
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-7.png)
 
+**Объяснение предупреждения:**  
+Предупреждение указывает на то, что файл docker-compose.yaml является устаревшим и рекомендуется использовать файл с именем compose.yaml вместо него.  
+Docker Compose ищет файлы с именами compose.yaml по умолчанию и считает их стандартом.
 
 
 
