@@ -130,9 +130,16 @@ services:
     ports:
     - "5000:5000"
 ```
-И выполните команду "docker compose up -d". Какой из файлов был запущен и почему?   
+И выполните команду "docker compose up -d". Какой из файлов был запущен и почему?    
 
-**Выполнения задания 5**
+**Выполнения задания 5.1**
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-1.png)
+
+Docker Compose по умолчанию ищет файл с именем docker-compose.yaml или docker-compose.yml.  
+В данном случае, файл docker-compose.yaml будет использоваться по умолчанию, и сервис registry будет запущен.  
+
+2) Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла.
 
 
 
