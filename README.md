@@ -146,6 +146,14 @@ Docker Compose по умолчанию ищет файл с именем docker-
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-2.png) 
 
+3) Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry.
+
+**Выполнения задания 5.3**
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-3.png) 
+
+
+
 
 
 
