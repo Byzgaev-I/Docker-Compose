@@ -168,6 +168,11 @@ services:
       - "9090:80"
 ```
 
+**Выполнения задания 5.4 и 5.5**
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-4-5.png)
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-4-5деплой.png)
 
 
 
