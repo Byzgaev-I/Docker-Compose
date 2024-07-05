@@ -9,7 +9,7 @@
 - Зарегистрируйтесь и создайте публичный репозиторий с именем "custom-nginx" на https://hub.docker.com;
 - Cкачайте образ nginx:1.21.1;
 - Создайте Dockerfile и реализуйте в нем замену дефолтной индекс-страницы(/usr/share/nginx/html/index.html), на файл index.html с содержимым:
-```html
+```
 <html>
 <head>
 Hey, Netology
