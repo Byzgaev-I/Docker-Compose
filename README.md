@@ -63,6 +63,27 @@ https://hub.docker.com/r/dextron1978/custom-nginx/tags
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.  
 
+### Выполнения задания 2
+
+Пункт 1-2-3
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/3-1-3.png)
+
+Пункт 4-5-6-7-8
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/3-4-8.png)
+
+Пункт 9-10
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/3-9-10.png)
+
+Пункт 11 (дополнительное задание)
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/3-11.png)
+
+Пункт 12
+
+![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/3-12.png)
 
 
 
