@@ -100,7 +100,39 @@ https://hub.docker.com/r/dextron1978/custom-nginx/tags
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/4.png)
 
+----
 
+### Задание 5
+
+1) Создайте отдельную директорию(например /tmp/netology/docker/task5) и 2 файла внутри него. "compose.yaml" с содержимым:  
+
+```
+version: "3"
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    network_mode: host
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+```
+
+"docker-compose.yaml" с содержимым:
+
+```
+version: "3"
+services:
+  registry:
+    image: registry:2
+    network_mode: host
+    ports:
+    - "5000:5000"
+```
+И выполните команду "docker compose up -d". Какой из файлов был запущен и почему?   
+
+### Выполнения задания 5
 
 
 
