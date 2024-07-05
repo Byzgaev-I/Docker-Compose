@@ -146,6 +146,7 @@ Docker Compose по умолчанию ищет файл с именем docker-
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-2.png) 
 
+
 3) Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry.
 
 **Выполнения задания 5.3**
@@ -153,6 +154,19 @@ Docker Compose по умолчанию ищет файл с именем docker-
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-3.png) 
 
 
+
+4) Откройте страницу "https://127.0.0.1:9000" и произведите начальную настройку portainer.(логин и пароль адмнистратора)  
+5) Откройте страницу "http://127.0.0.1:9000/#!/home", выберите ваше local окружение. Перейдите на вкладку "stacks" и в "web editor" задеплойте следующий компоуз:
+
+```
+version: '3'
+
+services:
+  nginx:
+    image: 127.0.0.1:5000/custom-nginx
+    ports:
+      - "9090:80"
+```
 
 
 
