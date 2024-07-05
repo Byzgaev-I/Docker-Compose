@@ -132,7 +132,7 @@ services:
 ```
 И выполните команду "docker compose up -d". Какой из файлов был запущен и почему?    
 
-**Выполнения задания 5.1**
+### Выполнения задания 5.1
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-1.png)
 
@@ -142,14 +142,14 @@ Docker Compose по умолчанию ищет файл с именем docker-
 
 2) Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла.
 
-**Выполнения задания 5.2**
+### Выполнения задания 5.2
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-2.png) 
 
 
 3) Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry.
 
-**Выполнения задания 5.3**
+### Выполнения задания 5.3
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-3.png) 
 
@@ -168,7 +168,7 @@ services:
       - "9090:80"
 ```
 
-**Выполнения задания 5.4 и 5.5**
+### Выполнения задания 5.4 и 5.5
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-4-5.png)
 
@@ -178,14 +178,14 @@ services:
 6) Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect".
 В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver".
 
-**Выполнения задания 5.6**
+### Выполнения задания 5.6
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-6.png)
 
 7) Удалите любой из манифестов компоуза(например compose.yaml). Выполните команду "docker compose up -d".  
 Прочитайте warning, объясните суть предупреждения и выполните предложенное действие. Погасите compose-проект ОДНОЙ(обязательно!!) командой.
 
-**Выполнения задания 5.7**
+### Выполнения задания 5.7
 
 ![image.jpg](https://github.com/Byzgaev-I/Docker-Compose/blob/main/5-7.png)
 
